@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+ width: 90%;
+ margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.debug1{
+    background-color: cornflowerblue;
+    height: 50px;
+}
+
+/*******UTILITY*********/
+
+.header-main{
+    padding: 20px 10px;
+
+}
