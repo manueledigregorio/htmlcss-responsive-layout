@@ -32,8 +32,27 @@
     background-color: coral;
     width:100%;
     height: 200px;
+    border: 1px solid black; 
+}
+
+.debug3{
+    background-color: azure;
+    width:100%;
+    height: 200px;
     border: 1px solid black;
-    
+    margin-bottom: 20px;
+}
+
+.debug4{
+    border: 1px solid black; 
+}
+
+.debug4-5{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 header{
@@ -56,5 +75,6 @@ header{
 
 .planning{
     background-color: #9792E4;
-    padding: 30px;
+    padding: 30px 0px;
 }
+
