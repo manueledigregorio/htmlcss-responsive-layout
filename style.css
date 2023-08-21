@@ -49,8 +49,12 @@ header{
 }
 
 .half{
-    width: 90px;
-    height: 90px;
+    height: 50%;
     background-color: aqua;
+    border: 1px solid black;
 }
 
+.planning{
+    background-color: #9792E4;
+    padding: 30px;
+}
