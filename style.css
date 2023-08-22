@@ -29,21 +29,6 @@ body{
     flex-direction: column;
 }
 
-.debug1-big{
-    width: 100%;
-    background-color: coral;
-    height: 400px;
-    border: 1px solid black;
-}
-
-.debug2{
-    background-color: coral;
-    width:100%;
-    min-height: 200px;
-    border: 1px solid black; 
-   
-}
-
 .debug22{
     background-color: coral;
     width:100%;
@@ -87,15 +72,20 @@ body{
     border-radius: 50%;
 }
 
+h3{
+    font-size: 1.5rem;
+}
 
+p{
+    color: #333333;
+}
 
 .get-free span{
     display: block;
-    
 }
 
 /*******UTILITY*********/
-
+/*******HEADER**********/
 header{
     background-color: #0084FD;
 }
@@ -126,17 +116,92 @@ header{
     display: none;
 }
 
+/****+FINE HEADER******/
+/*+**INIZIO DEMO*****/
 
 .half{
     height: 50%;
-    background-color: aqua;
-    border: 1px solid black;
 }
 
-.planning{
-    background-color: #9792E4;
-    
+.half h3{
+    padding: 15px 0px;
+    color: #0084FD;
 }
+
+.demo .row {
+    margin-top: 40px;
+}
+
+.col{
+    padding: 20px;
+}
+
+.card-big{
+    width: 100%;
+    background-color:#B5DDFF;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.half p{
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+.half img{
+    width: 220px;
+    padding-top: 40px;
+}
+
+.half a{
+    background-color: #0084FD;
+    padding: 10px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.demo .fa-apple{
+    font-size: 1.1rem;
+}
+
+.demo strong{
+    padding-left: 5px;
+}
+
+.demo .card .fa-solid{
+    font-size: 4rem;
+    color: #0084FD;
+    padding: 30px 0px;
+}
+
+.demo .card p{
+    line-height: 2;
+    padding-bottom: 30px;
+}
+
+.demo .card h3{
+    color: #0084FD;
+    padding-bottom: 20px;
+}
+.demo .card{
+    width:100%;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px 20px;
+}
+/*******FINE DEMO*****/
+/*******INIZIO PLANNING*****/
+.planning{
+    background-color: #9792E4;  
+}
+
+.card-planning{
+    width: 100%;
+}
+/******FINE PLANNING*****/
 
 .partners{
     padding: 30px 0px;
@@ -169,8 +234,6 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
     }
-
-
 
     .demo .col{
         width:calc(100% / 3) ;
