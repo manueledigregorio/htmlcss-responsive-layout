@@ -29,15 +29,6 @@ body {
   flex-direction: column;
 }
 
-.debug3 {
-  background-color: azure;
-  width: 100%;
-  height: 200px;
-  border: 1px solid black;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
 h3 {
   font-size: 1.5rem;
 }
@@ -349,18 +340,61 @@ header {
     border-radius: 15px;
 
 }
-
-
-
-
 /***** FINE ABOUT US******/
+/***** INIZIO GET FREE********/
 
 .get-free {
     background-color: #9792e4;
     text-align: center;
-  }
-  
+    padding: 50px;
+}
 
+.box-get span{
+    color: #c3c1ef;
+}
+
+.box-get h4{
+    color: white;
+    font-size: 2rem;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.box-get h2{
+    font-size: 4rem;
+    color: #fdc15f;
+}
+
+.box-get p{
+    color: white;
+    padding-bottom: 30px;
+    font-size: 0.8rem;
+}
+
+.bt-get{
+    color: #9792e4;
+    background-color: whitesmoke;
+    padding: 15px 80px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+
+.privacy a{
+    text-decoration: underline;
+    color: white;
+}
+
+ span.privacy{
+    padding: 50px;
+    color:white;
+}
+
+/***** FINE GET FREE********/
+/*****FOOTER****/
+.final p{
+    color: white;
+}
+  
 footer {
   text-align: center;
   background-color: #333333;
@@ -372,6 +406,12 @@ footer {
 
 .final {
   padding: 30px 0px;
+}
+
+.final a{
+    text-decoration: underline;
+    color: #9792e4;
+
 }
 
 /***********RESPONSIVE*/
@@ -417,6 +457,17 @@ footer {
   .about .about-left {
     width: 60%;
   }
+
+  .box-get p,
+  .final p{
+    padding:30px 150px;
+  }
+
+ footer .final , 
+ .get-free  div.container{
+    max-width: 900px;
+ }
+ 
 }
 
 @media screen and (min-width: 1200px) {
