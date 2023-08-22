@@ -29,14 +29,6 @@ body{
     flex-direction: column;
 }
 
-.debug22{
-    background-color: coral;
-    width:100%;
-    min-height: 200px;
-    border: 1px solid black; 
-   
-}
-
 .debug3{
     background-color: azure;
     width:100%;
@@ -54,17 +46,6 @@ body{
     margin-bottom: 20px;
 }
 
-.debug4{
-    border-top: 1px solid black; 
-}
-
-.card-img{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    border-radius: 50%;
-}
-
 .debug5{
     width: 100px;
     height: 100px;
@@ -74,6 +55,10 @@ body{
 
 h3{
     font-size: 1.5rem;
+}
+
+h2{
+    font-size: 2rem;
 }
 
 p{
@@ -247,10 +232,46 @@ header{
 
 
 /******FINE PLANNING*****/
+/*****INIZIO PARTNERS****/
 
 .partners{
-    padding: 30px 0px;
+    padding: 60px 0px ;
 }
+
+.intro-partners{
+    text-align: center;
+}
+
+.card-img-partners img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.box-partners{
+    background-color: #9792E4;
+    padding: 35px 20px;
+    border-radius: 50px;
+}
+
+.intro-partners span{
+    padding-bottom: 20px;
+}
+
+.partners-text p ,
+.partners-text span{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.intro-partners h2{
+    padding-bottom: 25px;
+    color: #9792E4;
+    padding-top: 30px;
+}
+
+/*****FINE PARTNERS*****/
 
 .benefits{
     background-color: #9792E4;
@@ -265,6 +286,10 @@ header{
 footer{
     text-align: center;
     background-color: #333333;
+}
+
+.partners .col{
+    text-align: center;
 }
 
 .final{
@@ -288,10 +313,16 @@ footer{
         width:calc(100% / 3 * 2) ;
     }
 
-    .partners .col{
+    .partners-img{
+        padding-right: 30px;
+    }
+
+    .box-partners{
         display: flex;
         align-items: center;
+        text-align: left;
     }
+    
 
     .benefits .row ,
     .about .row{
@@ -317,6 +348,10 @@ footer{
 @media screen and (min-width:1200px){
     .container{
         max-width: 1100px;
+    }
+
+    .partners-img{
+        padding-right: 50px;
     }
 
     .menu{
