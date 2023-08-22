@@ -21,6 +21,10 @@ body{
     justify-content: space-between;
 }
 
+.center{
+    justify-content: center;
+}
+
 .demo .row{
     flex-direction: column;
 }
@@ -83,9 +87,7 @@ body{
     border-radius: 50%;
 }
 
-header{
-    background-color: cornflowerblue;
-}
+
 
 .get-free span{
     display: block;
@@ -94,14 +96,36 @@ header{
 
 /*******UTILITY*********/
 
+header{
+    background-color: #0084FD;
+}
+
 .header-main{
     padding: 20px 10px;
     align-items: center;
 }
 
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+#bt-header{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: #333333;
+}
+
 .menu{
     display: none;
 }
+
 
 .half{
     height: 50%;
