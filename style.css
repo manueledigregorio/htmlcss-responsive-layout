@@ -78,6 +78,7 @@ h3{
 
 p{
     color: #333333;
+    line-height: 2rem;
 }
 
 .get-free span{
@@ -129,7 +130,8 @@ header{
 }
 
 .demo .row {
-    margin-top: 40px;
+    margin: 40px 0px;
+
 }
 
 .col{
@@ -196,11 +198,54 @@ header{
 /*******INIZIO PLANNING*****/
 .planning{
     background-color: #9792E4;  
+    padding: 40px 0px;
 }
 
-.card-planning{
+.card-planning1 img{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+ .planning .card-planning1 h3 ,
+ .planning .card-planning1 p 
+{
+    color: white;
+}
+
+.card-planning1 h3{
+    padding-bottom: 60px;
+}
+
+.card-planning2 h3{
+    padding-bottom: 30px;
+}
+
+.card-planning2 img{
     width: 100%;
 }
+
+.card-box{
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 45px;
+    text-align: center;
+    
+}
+
+.card-planning2 p{
+    font-style: italic;
+    padding-bottom: 40px;
+}
+
+.card-planning2 a{
+    background-color: #9792E4;
+    padding: 10px 15px;
+    border-radius: 50%;
+    color: #333333;
+}
+
+
 /******FINE PLANNING*****/
 
 .partners{
@@ -297,7 +342,15 @@ footer{
 
     .planning .col{
         width: 50%;
-        display: flex;
+    }
+
+    .planning .card-box{
+        margin-top: 235px;
+    }
+
+    .card-planning1 img{
+        padding-bottom: 220px;
+        padding-right: 20px;
     }
 
     .benefits .col{
